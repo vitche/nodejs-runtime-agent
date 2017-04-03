@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-runtime-agent",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./main.js",
+  "dependencies": {
+    "moment": "^2.18.1",
+    "nodejs-storage-agent": "git+https://github.com/vitche/nodejs-storage-agent.git",
+    "nodejs-storage-authentication": "git+https://github.com/vitche/nodejs-storage-authentication.git"
+  }
+}
