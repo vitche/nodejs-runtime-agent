@@ -32,6 +32,10 @@ var scheduler = {
             }
         }, {
             'updated': currentTime
+        }, {
+            sort: {
+                updated: 1
+            }
         }, function (error, agent) {
             if (null != error) {
                 throw  error;
